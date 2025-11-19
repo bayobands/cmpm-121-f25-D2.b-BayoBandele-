@@ -174,7 +174,7 @@ canvas.addEventListener("drawing-changed", redraw);
 
 // ======================================================
 // MOUSE EVENTS
-// ======================================================
+// =====================================================
 canvas.addEventListener("mousedown", (e) => {
   const rect = canvas.getBoundingClientRect();
   const x = e.clientX - rect.left;
